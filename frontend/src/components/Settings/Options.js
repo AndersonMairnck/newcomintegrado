@@ -518,8 +518,10 @@ export default function Options(props) {
         </Tabs>
 
       </Grid>
+      {/*desativado para entender as funcionalidades*/}
+
       {/*-----------------IXC-----------------*/}
-      <Grid spacing={3} container
+      {/* <Grid spacing={3} container
         style={{ marginBottom: 10 }}>
         <Tabs
           indicatorColor="primary"
@@ -571,9 +573,9 @@ export default function Options(props) {
             </FormHelperText>
           </FormControl>
         </Grid>
-      </Grid>
+      </Grid> */}
       {/*-----------------MK-AUTH-----------------*/}
-      <Grid spacing={3} container
+      {/* <Grid spacing={3} container
         style={{ marginBottom: 10 }}>
         <Tabs
           indicatorColor="primary"
@@ -605,7 +607,7 @@ export default function Options(props) {
           </FormControl>
         </Grid>
         <Grid xs={12} sm={12} md={4} item>
-          <FormControl className={classes.selectContainer}>
+         <FormControl className={classes.selectContainer}>
             <TextField
               id="clientidmkauth"
               name="clientidmkauth"
@@ -642,9 +644,9 @@ export default function Options(props) {
             </FormHelperText>
           </FormControl>
         </Grid>
-      </Grid>
+      </Grid> */}
       {/*-----------------ASAAS-----------------*/}
-      <Grid spacing={3} container
+      {/* <Grid spacing={3} container
         style={{ marginBottom: 10 }}>
         <Tabs
           indicatorColor="primary"
@@ -675,7 +677,7 @@ export default function Options(props) {
             </FormHelperText>
           </FormControl>
         </Grid>
-      </Grid>
+      </Grid> */}
     </>
   );
 }
